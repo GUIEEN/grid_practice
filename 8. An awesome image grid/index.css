@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 75px;
+    grid-auto-flow: dense; 
+    /* row -> row에 맞지않는 사진은 그냥 빈칸으로 둔다.
+     dense -> 빈칸들에 꽉꽉 체워서 내보내준다. */
+}
+
+.horizontal {
+  /* grid-column: auto / span 2; */
+  grid-column: span 2;
+}
+
+.vertical {
+  grid-row: span 2;
+}
+
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
