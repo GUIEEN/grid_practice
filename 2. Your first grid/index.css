@@ -1,0 +1,6 @@
+.container {
+    display: inline-flex;
+    grid-template-columns: 100px;
+    grid-template-rows: 39px 20px 10px;
+    grid-gap: 3px;
+  }
